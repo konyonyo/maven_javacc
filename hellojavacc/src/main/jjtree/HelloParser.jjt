@@ -1,0 +1,52 @@
+//オプション定義
+options{
+    STATIC=false;
+    MULTI=true;
+    VISITOR=true;
+}
+
+//パーサークラスの定義
+PARSER_BEGIN(HelloParser)
+package jjtree;
+public class HelloParser{
+
+}
+PARSER_END(HelloParser)
+
+//トークンの定義
+SKIP:
+{
+    " " | "\r" | "\t" | "\n"
+}
+TOKEN:
+{
+        <HELLO: "hello">
+    |   <JAVACC: "javacc">
+    |   <JJTREE: "jjtree">
+}
+
+//構文の定義
+ASTHello Hello():
+{}
+{
+    <HELLO> Command() { return jjtThis;}
+}
+
+void Command() #void :
+{}
+{
+        JavaCC()
+    |   JJTree()
+}
+
+void JavaCC():
+{}
+{
+    <JAVACC>
+}
+
+void JJTree():
+{}
+{
+    <JJTREE>
+}
