@@ -7,7 +7,7 @@ options{
 
 //パーサークラスの定義
 PARSER_BEGIN(HelloParser)
-package parser;
+package main.java.parser;
 public class HelloParser{
 
 }

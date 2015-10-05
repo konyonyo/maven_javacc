@@ -20,4 +20,4 @@ class ASTJJTree extends SimpleNode {
     visitor.visit(this, data);
   }
 }
-/* JavaCC - OriginalChecksum=4b8b57f30d82356643389b173cf8b596 (do not edit this line) */
+/* JavaCC - OriginalChecksum=1c5cd4554e171e623712265e94af0642 (do not edit this line) */

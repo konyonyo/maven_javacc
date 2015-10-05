@@ -4,7 +4,7 @@ package main.java.parser;
 public class HelloParser/*@bgen(jjtree)*/implements HelloParserTreeConstants, HelloParserConstants {/*@bgen(jjtree)*/
   protected JJTHelloParserState jjtree = new JJTHelloParserState();
 
-//æ§‹æ–‡ã®å®šç¾©
+//\•¶‚Ì’è‹`
   final public ASTHello Hello() throws ParseException {/*@bgen(jjtree) Hello */
   ASTHello jjtn000 = new ASTHello(JJTHELLO);
   boolean jjtc000 = true;

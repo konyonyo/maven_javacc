@@ -20,4 +20,4 @@ class ASTHello extends SimpleNode {
     visitor.visit(this, data);
   }
 }
-/* JavaCC - OriginalChecksum=37967b306d87212f8fed053c32d018b9 (do not edit this line) */
+/* JavaCC - OriginalChecksum=8ad7fd25d55a5c8a5c6e84d0de6d8d43 (do not edit this line) */
