@@ -7,7 +7,7 @@ options{
 
 //パーサークラスの定義
 PARSER_BEGIN(HelloParser)
-package jjtree;
+package parser;
 public class HelloParser{
 
 }

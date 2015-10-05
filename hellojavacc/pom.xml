@@ -15,6 +15,10 @@
   		<version>4.12</version>
   	</dependency>
   </dependencies>
+  <properties> 
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+</properties> 
+  
     <build>
   <plugins>
   <plugin>
@@ -25,7 +29,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>helloworld.Hello</mainClass>
+                            <mainClass>main.java.hello.Hello</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
